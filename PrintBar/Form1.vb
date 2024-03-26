@@ -61,10 +61,10 @@ Public Class Form1
         e.Graphics.DrawImage(logoImage, CInt((e.PageBounds.Width - 150) / 2), 5, 150, 35)
         'e.Graphics.DrawImage(logoImage, 0, 250, 150, 50)
 
-        e.Graphics.DrawString("RD Label Scale", f16b, Brushes.Black, marginC, 8, Center)
-        e.Graphics.DrawString("RD Room Location : 1", f10, Brushes.Black, marginC, 35, Center)
-        e.Graphics.DrawString("Non Allergen", f10, Brushes.Black, marginC, 50, Center)
-        e.Graphics.DrawString("Smile Heart Foods Co.,Ltd.", f10b, Brushes.Black, marginC, 70, Center)
+        e.Graphics.DrawString("Label Scale", f16b, Brushes.Black, marginC, 8, Center)
+        e.Graphics.DrawString("88888 : 1", f10, Brushes.Black, marginC, 35, Center)
+        e.Graphics.DrawString("*******", f10, Brushes.Black, marginC, 50, Center)
+        e.Graphics.DrawString("******** Co.,Ltd.", f10b, Brushes.Black, marginC, 70, Center)
         e.Graphics.DrawString(Line, f10, Brushes.Black, marginC, 85, Center)
 
         Dim adjustMargin As Integer = 18
